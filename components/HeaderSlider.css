@@ -1,0 +1,24 @@
+.slideshow {
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slideshow img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slideshow img.active {
+    opacity: 1;
+    transform: translateX(0);
+
+  }
