@@ -61,15 +61,7 @@ export default function Navbar() {
                     }
                 </div>
             </div>
-            <div className="menu-icons">
-                {
-                    (toggle === false) ? <button className='nav-btn'> <MenuOpenIcon onClick={handleToggle}/> </button> :
-                    <button className='nav-btn close-btn'> <CloseIcon onClick={handleToggle}/> </button>
-                }
-            </div>
-            
-         
-
+        
         </nav>
         
     </div>

@@ -46,6 +46,7 @@
 .search-icon{
     color: var(--primary-color);
 }
-.search button{
+.search-type:hover{
+    color: black;
 
 }

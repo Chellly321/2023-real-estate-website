@@ -54,12 +54,7 @@ export default function NavbarHome() {
                 <NavLink to='/aboutus'>
                     About us
                 </NavLink>
-                <div className="menu-icons">
-                    {
-                        (toggle === false) ? <button className='nav-btn'> <MenuOpenIcon onClick={handleToggle}/> </button> :
-                        <button className='nav-btn close-btn'> <CloseIcon onClick={handleToggle}/> </button>
-                    }
-                </div>
+    
             </div>
             <div className="menu-icons">
                 {

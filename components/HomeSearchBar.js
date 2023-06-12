@@ -21,9 +21,9 @@ export default function HomeSearchBar() {
   return (
     <div className='search-container'>
       <div className="filter-sections">
-        <button className='search-type'>Buy</button>
-        <button className='search-type'>Rent</button>
-        <button className='search-type'>SXM EDGE</button>
+        <button className='search-type btn' onClick={handleTabClick}>Buy</button>
+        <button className='search-type btn'>Rent</button>
+        <button className='search-type btn'>SXM EDGE</button>
 
       </div>
       <div className="search">

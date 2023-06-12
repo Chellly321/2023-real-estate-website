@@ -41,6 +41,19 @@ ul {
 .btn:hover {
   color: #fff;
   background-color: var(--primary-color);
+  animation: bounce 0.5s infinite;
+
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* forms */

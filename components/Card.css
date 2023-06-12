@@ -1,0 +1,80 @@
+.column {
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.property-header{
+    position: absolute;
+    padding: 15px;
+}
+
+.rent{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+.buy{
+    background-color: white;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    padding: 8px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.single-property {
+    margin: 20px;
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.single-property:hover{
+    transform: scale(1.1);
+
+}
+
+.property-thumb {
+    position: relative;
+  }
+  
+.property-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+.property-info ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+.property-image{
+    width: 350px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.card-list-type{
+    margin-top: 12px;
+    border-left: 1.5px solid white;
+    padding-left: 3px;
+}
+li .card-icons{
+    font-size: 20px;
+}
+
+
+
