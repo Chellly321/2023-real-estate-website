@@ -1,6 +1,7 @@
 import React from 'react'
 import PropertyData from '../data/PropertyData'
 
+// styling and icons
 import SquareFootIcon from '@mui/icons-material/SquareFoot';
 import BedIcon from '@mui/icons-material/Bed';
 import BathroomIcon from '@mui/icons-material/Bathroom';
@@ -13,7 +14,7 @@ export default function Card() {
   return (
     <>   
         {PropertyData.map(property => {
-          return(
+          return (
           <div key={property.id}>
               <div className='column'>
                 <div className="single-property">
@@ -28,14 +29,15 @@ export default function Card() {
                         alt='property image'
                       />
                       <div className="property-info">
-                        <h4><b>{property.price}</b></h4>
-                        <span><b>{property.type}</b></span>
+                        <div className="first-info">
+                        <span className='type-tag'><b>{property.type}</b></span>
+                        <h3 className='price-tag'><b>{property.price}</b></h3>
+                        </div>
 
                         <div className="location-mark">
                           <span className="location">{property.address}</span> <br></br>
                           <span className="location">{property.location}</span>
                       
-                        {/* <div className="property-footer"> */}
                           <ul>
                             <li className="card-footer-list">
                               <SquareFootIcon className='card-icons' />
@@ -50,7 +52,6 @@ export default function Card() {
                               <span>{property.bath}</span>
                             </li>
                           </ul>
-                        {/* </div> */}
                         </div>
                     </div>
               </div>

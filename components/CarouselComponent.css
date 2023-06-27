@@ -1,0 +1,27 @@
+.slider-wrapper{
+    margin-right: 5em;
+    margin-left: 5em;
+    padding: 0em;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000; 
+}
+
+h2.rent-styling{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+h2.buy-styling{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+
+}
+
+.slick-prev, .slick-next{
+    background: pink;
+    width: 0;
+}

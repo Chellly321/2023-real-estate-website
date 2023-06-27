@@ -1,7 +1,7 @@
 import SquareFootIcon from '@mui/icons-material/SquareFoot';
 import BedIcon from '@mui/icons-material/Bed';
 import BathroomIcon from '@mui/icons-material/Bathroom';
-import PropertyImage from '../assets/property-img1.webp'
+import PropertyImage from '../assets/image9.png'
 
 const PropertyData = [
     {
@@ -23,10 +23,10 @@ const PropertyData = [
     {
         id:'2',
         listingType:'Rent',
-        type:"Town House",
+        type:"Villa",
         image:PropertyImage,
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-        price:"$150.000",
+        price:"$1.500.000",
         address:"Simpson Bay Yacht Club 12-3, 97150",
         location:"Sint Maarten",
         surfaceImage:SquareFootIcon,
@@ -39,7 +39,7 @@ const PropertyData = [
     {
         id:'3',
         listingType:'Buy',
-        type:"Town House",
+        type:"Studio",
         image:PropertyImage,
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
         price:"$150.000",
@@ -74,7 +74,7 @@ const PropertyData = [
         type:"Appartment",
         image:PropertyImage,
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-        price:"$150.000",
+        price:"$200.000",
         address:"Simpson Bay Yacht Club 12-3, 97150",
         location:"Sint Maarten",
         surfaceImage:SquareFootIcon,
@@ -87,10 +87,42 @@ const PropertyData = [
     {
         id:'6',
         listingType:'Rent',
-        type:"Appartment",
+        type:"House",
         image:PropertyImage,
         description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
-        price:"$150.000",
+        price:"$400.000",
+        address:"Simpson Bay Yacht Club 12-3, 97150",
+        location:"Sint Maarten",
+        surfaceImage:SquareFootIcon,
+        surface:"1200 Sqft",
+        bedrooms:"3 Bed",
+        bedImage:BedIcon,
+        bath:"2 Bath",
+        bathImage:BathroomIcon
+    },
+    {
+        id:'7',
+        listingType:'Rent',
+        type:"House",
+        image:PropertyImage,
+        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+        price:"$400.000",
+        address:"Simpson Bay Yacht Club 12-3, 97150",
+        location:"Sint Maarten",
+        surfaceImage:SquareFootIcon,
+        surface:"1200 Sqft",
+        bedrooms:"3 Bed",
+        bedImage:BedIcon,
+        bath:"2 Bath",
+        bathImage:BathroomIcon
+    },
+    {
+        id:'7',
+        listingType:'Rent',
+        type:"House",
+        image:PropertyImage,
+        description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+        price:"$400.000",
         address:"Simpson Bay Yacht Club 12-3, 97150",
         location:"Sint Maarten",
         surfaceImage:SquareFootIcon,

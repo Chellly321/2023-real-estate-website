@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 
 // styles and icons 
 import './HeaderSlider.css';
-import Image1 from '../assets/banner-img.jpg';
+import Image1 from '../assets/image6.jpeg';
 import Image2 from '../assets/property-img2.avif';
-import Image3 from '../assets/property-img1.webp';
+import Image3 from '../assets/maho-real-estate.png';
 import HomeSearchBar from './HomeSearchBar';
 
 export default function HeaderSlide() {
